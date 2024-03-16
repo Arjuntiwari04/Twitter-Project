@@ -1,0 +1,28 @@
+
+.twitter-preview{
+  display: flex;
+}
+.tweet-logo{
+  height: 290px;
+  width: 395px;
+  object-fit: cover;
+  margin-top: 185px;
+  margin-left: 180px;
+  object-fit: cover;
+}
+.side-now{
+  margin-left: 180px;
+}
+.happening{
+  margin-top: 80px;
+  display: flex;
+  font-size: 74px;
+  font-weight: bold;
+  line-height: -1.5px;
+}
+.join{
+  display: flex;
+  font-weight: bold;
+  margin-top: 55px;
+  font-size: 35px;
+}

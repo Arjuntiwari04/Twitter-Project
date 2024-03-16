@@ -1,0 +1,122 @@
+
+.apple-login-box,
+.google-login-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    height: 40px;
+    width: 280px;
+    background-color: white;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.apple-login-box{
+    margin-top: 12px;
+}
+.apple-logo,
+.google-logo{
+    height: 20px;
+    width: 20px;
+    margin-right: 6px;
+    margin-bottom: -1.5px;
+    object-fit: cover;
+}
+.apple-logo{
+    height: 30px;
+    width: 30px;
+}
+.Apple-sign-up,
+.Google-sign-up{
+    color: rgb(96, 96, 96);
+    font-weight: 500;
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+.Apple-sign-up{
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+}
+.apple-login-box{
+    cursor: pointer;
+    transition: 2s;
+}
+.apple-login-box:hover{
+    background-color: rgb(240, 240, 240);
+}
+.or-box{
+    display: flex;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    align-items: center;
+}
+.empty{
+    height: 1px;
+    width: 130px;
+    background-color: rgb(46, 45, 45);
+    margin-top: 4px;
+    z-index: 1;
+}
+.or{
+    padding: 5px;
+    background-color: black;
+    z-index: 2;
+}
+.create{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 280px;
+    border: none;
+    border-radius: 25px;
+    font-size: 15px;
+    padding-bottom: 5px;
+    font-weight: 700;
+    color: white;
+    background-color: rgba(50, 156, 255, 0.941);
+    cursor: pointer;
+    transition: 0.4s;
+}
+.create:hover{
+    background-color: rgb(33, 143, 246);
+}
+.agreement{
+    font-weight: 500;
+    width: 280px;
+    margin-top: 4px;
+    font-size: 10px;
+    color: rgb(133, 132, 132);
+}
+.service{
+    text-decoration: none;
+    color: rgb(43, 144, 239);
+}
+.service:hover{
+    text-decoration: underline;
+}
+.already-account{
+    margin-top: 50px;
+}
+.text-already-account {
+    font-weight: 700;
+    font-size: 17px;
+    text-decoration-style: solid;
+}
+.Sign-in-button {
+    font-weight: 700;
+    font-size: 15px;
+    background-color: transparent;
+    color: rgb(43, 144, 239);
+    border: 1px solid rgb(83, 100, 113);
+    padding: 8px 110px;
+    align-items: center;
+    border-radius: 30px;
+    line-height: 20px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.Sign-in-button:hover {
+    background-color:rgba(43, 183, 239, 0.109);
+}
